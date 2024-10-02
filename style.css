@@ -1,0 +1,114 @@
+html{
+    display: table;
+    margin: auto;
+}
+
+body{
+    width: 700px;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+
+#titulo{
+    /* width: 700px; */
+    text-align: center;
+    font-size: 3.7rem;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.mes{
+    margin-bottom: 30px;
+}
+
+.mesTitulo{
+    /* width: 706px; */
+    font-size: 2.5rem;
+    margin-bottom: 1%;
+    border-bottom: solid 1px;
+}
+
+.eventos{
+    display: flex;
+    /* width: 700px; */
+    margin-bottom: 15px;
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.dadosEventos{
+    margin: auto;
+    text-align: center;
+    margin-right: 3px;
+    margin-left: 3px;
+
+}
+
+.dia{
+    width: 10%;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.diaNum{
+    font-size: 3rem;
+}
+
+.diaNumDuasDatas{
+    font-size: 1.8rem;
+}
+
+.info{
+    width: 75%;
+    text-align: left;
+}
+
+.infoAtividade{
+    font-size: 1.7rem;
+}
+
+.infoLocalHora{
+    font-size: 1.4rem;
+}
+
+.publico{
+    width: 15%;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: grey;
+}
+
+#tituloFiltro{
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+button{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 1rem;
+
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 1px solid grey;
+}
+
+button:active{
+    background-color: white;
+    border-color: rgb(182, 182, 182);
+}
